@@ -6,7 +6,7 @@ metadata:
 spec:
   destination:
     namespace: gitlab
-    server: https://gitee.com/xincuni/myiac
+    server: https://kubernetes.default.svc
   project: default
   source:
     path: devops/gitlab/manifests
