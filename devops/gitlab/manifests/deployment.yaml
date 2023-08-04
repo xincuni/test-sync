@@ -70,7 +70,7 @@ spec:
               mountPath: /var/log/gitlab
               subPath: logs
             - name: gitlab-home
-              mountPath: /var/opt/gitlab
+              mountPath: /var/lib/gitlab
               subPath: data
       volumes:
         - name: gitlab-home
