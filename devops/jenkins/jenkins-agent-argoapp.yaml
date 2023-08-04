@@ -10,7 +10,7 @@ spec:
   project: default
   source:
     path: devops/jenkins/agent-manifests
-    repoURL: https://jihulab.com/devopsvip/myiac.git
+    repoURL: https://gitee.com/xincuni/myiac
     targetRevision: main
     directory:
       recurse: false
