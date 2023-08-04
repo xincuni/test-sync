@@ -6,11 +6,11 @@ metadata:
 spec:
   destination:
     namespace: gitlab
-    server: https://kubernetes.default.svc
+    server: https://gitee.com/xincuni/myiac
   project: default
   source:
     path: devops/gitlab/runner-manifests
-    repoURL: https://jihulab.com/devopsvip/myiac.git
+    repoURL: https://gitee.com/xincuni/myiac
     targetRevision: main
     directory:
       recurse: false

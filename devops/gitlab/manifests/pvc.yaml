@@ -13,8 +13,8 @@ spec:
   #   - hard
   #   - nfsvers=4.1
   nfs:
-    path: /data/storage/kubernetes/gitlab
-    server: 192.168.1.200
+    path: /data/nfs/kubernetes/gitlab
+    server: 172.16.14.112
 ---
 apiVersion: v1
 kind: PersistentVolumeClaim
