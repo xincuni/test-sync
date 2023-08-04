@@ -35,11 +35,11 @@ spec:
               protocol: TCP
           resources:
             limits:
-              cpu: 1000m
-              memory: 2Gi
+              cpu: 4000m
+              memory: 8Gi
             requests:
-              cpu: 500m
-              memory: 512Mi
+              cpu: 4000m
+              memory: 8Gi
           # livenessProbe:
           #   httpGet:
           #     path: /login
