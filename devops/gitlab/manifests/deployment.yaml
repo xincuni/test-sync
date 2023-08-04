@@ -62,16 +62,16 @@ spec:
           #   initialDelaySeconds: 60
           #   timeoutSeconds: 5
           #   failureThreshold: 12
-          volumeMounts:
-            - name: gitlab-home
-              mountPath: /etc/gitlab
-              subPath: config
-            - name: gitlab-home
-              mountPath: /var/log/gitlab
-              subPath: logs
-            - name: gitlab-home
-              mountPath: /var/lib/gitlab
-              subPath: data
+#          volumeMounts:
+#            - name: gitlab-home
+#              mountPath: /etc/gitlab
+#              subPath: config
+#            - name: gitlab-home
+#              mountPath: /var/log/gitlab
+#              subPath: logs
+#            - name: gitlab-home
+#              mountPath: /var/lib/gitlab
+#              subPath: data
       volumes:
         - name: gitlab-home
           persistentVolumeClaim:
