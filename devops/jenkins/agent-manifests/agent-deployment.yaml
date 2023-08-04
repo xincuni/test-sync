@@ -36,7 +36,7 @@ spec:
             - name: JENKINS_URL
               value: http://jenkins.jenkins.svc.cluster.local:8080
             - name: JENKINS_SECRET
-              value: 084570525dd4c12755c196b9ee61ab222b82b399e89ccb055f92f2a45a940b91
+              value: 4ffc72a195f7123ef0c04d044cba5e63cc58d46900fbd11ea7f9aab1710148ed
             - name: JENKINS_AGENT_NAME
               value: build01
             - name: JENKINS_AGENT_WORKDIR
