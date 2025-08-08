@@ -17,3 +17,5 @@ terraform apply
 # 仅部署某个资源   
 terraform apply -target=docker_container.sonarqube 
 ````
+
+# 更新read测试
